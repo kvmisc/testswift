@@ -68,6 +68,18 @@ class ViewController: UIViewController {
 //    let town = Town()
 //    town.population = 101
 
+
+
+
+//    // 默认初始化方法
+//    // 当类的所有存储属性都有默认值的时候，可以调用这个方法
+//    // 当类的部分存储属性没有默认值，且没有提供自定义初始化方法的时候，编译错误
+//    var va = Monster()
+//    // 类没有默认初始化成员方法
+
+    var va = Monster(region: "", population: 101, lights: 102)
+    print(va)
+
   }
 
 

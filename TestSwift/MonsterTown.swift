@@ -42,10 +42,20 @@ struct Town {
 
 
 class Monster {
+  var population: Int
+  var stoplights: Int
+  let region: String
+  var computedProperty: Int { return 5 }
+
+  init(region: String, population: Int, lights: Int) {
+    self.population = population
+    stoplights = lights
+    self.region = region
+  }
 }
 
-class Zombie: Monster {
-}
+//class Zombie: Monster {
+//}
 
 
 
