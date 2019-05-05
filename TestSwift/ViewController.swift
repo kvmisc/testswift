@@ -77,8 +77,11 @@ class ViewController: UIViewController {
 //    var va = Monster()
 //    // 类没有默认初始化成员方法
 
-    var va = Monster(region: "", population: 101, lights: 102)
-    print(va)
+//    var va = Monster(region: "", population: 101, lights: 102)
+//    print(va)
+
+    var va = 5, vb = 5.0, vc = "111"
+    var vd, ve, vf: Double
 
   }
 

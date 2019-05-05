@@ -34,6 +34,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+
+    var va = "abcdef"
+    var start = va.startIndex
+    var idx = va.index(start, offsetBy: 2);
+    var range = start...idx
+    var vb = va[range]
+    print(vb) // abc
+
+    var secondIdx = va.index(after: va.startIndex)
+    vb.remove(at: secondIdx)
+    print(va)
+    print(vb)
+
+
+//    for i in >1..5 {
+//      print(i)
+//      if i==10 { break }
+//    }
+
 //    let va = Stt()
 //    va.value = 101
 //
