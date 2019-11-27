@@ -80,11 +80,36 @@ class ViewController: UIViewController {
 //    var va = Monster(region: "", population: 101, lights: 102)
 //    print(va)
 
-    var va = 5, vb = 5.0, vc = "111"
-    var vd, ve, vf: Double
+//    var va = 5, vb = 5.0, vc = "111"
+//    var vd, ve, vf: Double
+
+    let tv = FBTestView.extLoadFromNib()
+    if let v = tv as? FBTestView {
+      v.doit()
+      view.addSubview(v)
+      v.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
+    }
+//    let testView = Bundle.main.loadNibNamed("FBTestView", owner: nil, options: nil)?.last as! UIView
+//    //    let testView = FBTestView()
+//    //    //testView.setup()
+//    //    //testView.backgroundColor = .red
+//    //    if let tv = testView {
+//    //      view.addSubview(tv)
+//    //      tv.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
+//    //    }
+//
+//    view.addSubview(testView)
+//    testView.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
 
   }
 
 
+}
+
+extension UIView {
+  static func extLoadFromNib() -> UIView? {
+    let name = String(describing: self)
+    return Bundle.main.loadNibNamed(name, owner: nil, options: nil)?.last as? UIView
+  }
 }
 

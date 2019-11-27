@@ -12,6 +12,8 @@
 		BB57B52522702FC500FF130A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB57B52322702FC500FF130A /* Main.storyboard */; };
 		BB57B52722702FC600FF130A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB57B52622702FC600FF130A /* Assets.xcassets */; };
 		BB57B52A22702FC600FF130A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB57B52822702FC600FF130A /* LaunchScreen.storyboard */; };
+		BB91D2B0238E0DA00048D384 /* FBTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB91D2AE238E0DA00048D384 /* FBTestView.swift */; };
+		BB91D2B1238E0DA00048D384 /* FBTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB91D2AF238E0DA00048D384 /* FBTestView.xib */; };
 		BBED8C1A227698B300AC0990 /* MonsterTown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED8C19227698B300AC0990 /* MonsterTown.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		BB57B52622702FC600FF130A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB57B52922702FC600FF130A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB57B52B22702FC600FF130A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB91D2AE238E0DA00048D384 /* FBTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBTestView.swift; sourceTree = "<group>"; };
+		BB91D2AF238E0DA00048D384 /* FBTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTestView.xib; sourceTree = "<group>"; };
 		BBED8C19227698B300AC0990 /* MonsterTown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +63,8 @@
 				BB57B51F22702FC500FF130A /* AppDelegate.swift */,
 				BBED8C19227698B300AC0990 /* MonsterTown.swift */,
 				BB57B52122702FC500FF130A /* ViewController.swift */,
+				BB91D2AE238E0DA00048D384 /* FBTestView.swift */,
+				BB91D2AF238E0DA00048D384 /* FBTestView.xib */,
 				BB57B52322702FC500FF130A /* Main.storyboard */,
 				BB57B52622702FC600FF130A /* Assets.xcassets */,
 				BB57B52822702FC600FF130A /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				BB57B52A22702FC600FF130A /* LaunchScreen.storyboard in Resources */,
 				BB57B52722702FC600FF130A /* Assets.xcassets in Resources */,
+				BB91D2B1238E0DA00048D384 /* FBTestView.xib in Resources */,
 				BB57B52522702FC500FF130A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				BB57B52222702FC500FF130A /* ViewController.swift in Sources */,
 				BBED8C1A227698B300AC0990 /* MonsterTown.swift in Sources */,
+				BB91D2B0238E0DA00048D384 /* FBTestView.swift in Sources */,
 				BB57B52022702FC500FF130A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
